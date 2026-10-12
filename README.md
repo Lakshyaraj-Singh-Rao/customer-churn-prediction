@@ -10,6 +10,7 @@ This project explores a telecom customer dataset and trains classification model
 | `EDA.ipynb` | Exploratory analysis and visualizations of churn against customer attributes. |
 | `logisticRegression.ipynb` | Logistic-regression baseline, evaluation, and threshold selection focused on recall. |
 | `XGboost.ipynb` | XGBoost classification model and evaluation. |
+| `app.py` | Gradio web app that trains the final XGBoost model and serves churn predictions. |
 
 ## Data
 
@@ -41,6 +42,17 @@ Launch Jupyter and run the notebooks from this project folder so they can find `
 ```powershell
 jupyter notebook
 ```
+
+## Run the web app
+
+Install the requirements, then run:
+
+```powershell
+python app.py
+```
+
+The app loads the saved XGBoost model from `xgbclassifier.joblib` when it starts.
+Gradio will print a temporary public `gradio.live` link in the terminal because sharing is enabled.
 
 Recommended notebook order:
 
