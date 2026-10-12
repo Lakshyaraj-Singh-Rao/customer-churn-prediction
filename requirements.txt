@@ -4,4 +4,6 @@ matplotlib>=3.7
 seaborn>=0.12
 scikit-learn>=1.2
 xgboost>=1.7
+gradio>=4.0
+joblib>=1.2
 jupyter>=1.0
