@@ -1,0 +1,7 @@
+# Python bytecode and cache folders
+__pycache__/
+*.py[cod]
+
+# Local virtual environments
+.venv/
+venv/
